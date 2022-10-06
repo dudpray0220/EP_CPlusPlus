@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<MyApp>
+	<Messages>
+		<Welcome>Welcome to MyApp</Welcome>
+		<Farewell>Thank you for using MyApp</Farewell>
+	</Messages>
+	<Windows>
+		<Window name="MainFrame" x="5" y="15" w="400" h="250" />
+		<param name="version" type="float" value="1.1000000000000001" />
+		<Welcome>Welcome to MyApp</Welcome>
+		<param name="version" type="float" value="1.1000000000000001" />
+		<Farewell>Thank you for using MyApp</Farewell>
+	</Windows>
+</MyApp>
