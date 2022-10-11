@@ -112,7 +112,7 @@ int main() {
     std::cout << "vGPU Create Command: " << vgpuCreate_command_char << std::endl;
     std::cout << "vGPU Define Command: " << vgpuDefine_command_char << std::endl;
     std::cout << "List 갯수: " << vgpu_uuidList.size() << std::endl;
-    for (auto item : vgpu_uuidList) {
-        std::cout << "할당된 vGPU UUID: " << item << std::endl;
+    for (auto uuidItem : vgpu_uuidList) {
+        std::cout << "할당된 vGPU UUID: " << uuidItem << std::endl;
     }
 }

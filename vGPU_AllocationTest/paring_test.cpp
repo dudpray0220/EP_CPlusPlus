@@ -46,7 +46,7 @@ int main() {
     vgpuDefine_command = "mdevctl define --auto --uuid " + uuid;
 
     // List에 값 넣기
-    for (int i = 0; i < 10; i++) {
+    for (int i = 1; i <= 10; i++) {
         vgpu_uuidList.push_back("Hi " + std::to_string(i));
     }
 
